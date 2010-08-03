@@ -11,8 +11,8 @@ begin
     gemspec.homepage = "http://github.com/eee-c/couch_docs"
     gemspec.authors = ["Chris Strom"]
     gemspec.add_development_dependency "rspec", ">= 1.2.9"
-    gemspec.add_dependency "rest-client", "1.1.0"
-    gemspec.add_dependency "json", "1.2.0"
+    gemspec.add_dependency "rest-client", ">= 1.5.1"
+    gemspec.add_dependency "json", ">= 1.2.0"
     gemspec.add_dependency "directory_watcher", "1.3.1"
   end
 rescue LoadError
